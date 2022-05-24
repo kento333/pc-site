@@ -32,9 +32,14 @@ img {
     margin-left: 30px;
 }
 
-.nav_link {
+.nav_list-link {
+    color: #333;
     text-decoration: none;
     transition: 0.3s;
+}
+
+.nav_list-link:hover {
+    opacity: 0.5;
 }
 
 .image {
@@ -119,7 +124,7 @@ img {
 .footer_box-text {
     text-align: center;
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .footer_box-text:not(:first-child) {
